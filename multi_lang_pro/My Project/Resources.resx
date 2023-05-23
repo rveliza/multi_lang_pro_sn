@@ -127,8 +127,14 @@
   <data name="edit_butt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit_butt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="first_name" xml:space="preserve">
+    <value>Reyner</value>
+  </data>
   <data name="jet1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jet1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="last_name" xml:space="preserve">
+    <value>Veliz</value>
   </data>
   <data name="new_butt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new_butt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

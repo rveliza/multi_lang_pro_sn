@@ -91,12 +91,30 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Reyner.
+        '''</summary>
+        Friend ReadOnly Property first_name() As String
+            Get
+                Return ResourceManager.GetString("first_name", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property jet1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("jet1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Veliz.
+        '''</summary>
+        Friend ReadOnly Property last_name() As String
+            Get
+                Return ResourceManager.GetString("last_name", resourceCulture)
             End Get
         End Property
         
