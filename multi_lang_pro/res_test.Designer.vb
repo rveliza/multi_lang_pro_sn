@@ -40,6 +40,7 @@ Partial Class res_test
         '
         'PictureBox1
         '
+        Me.PictureBox1.Image = Global.multi_lang_pro.My.Resources.my_custom_resx.jet2
         Me.PictureBox1.Location = New System.Drawing.Point(77, 64)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(250, 206)

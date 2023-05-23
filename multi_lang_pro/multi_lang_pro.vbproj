@@ -102,6 +102,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="my_custom_resx.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>my_custom_resx.resx</DependentUpon>
+    </Compile>
     <Compile Include="res_test.Designer.vb">
       <DependentUpon>res_test.vb</DependentUpon>
     </Compile>
@@ -121,6 +126,11 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="my_custom_resx.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>my_custom_resx.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="res_test.resx">
       <DependentUpon>res_test.vb</DependentUpon>
@@ -158,6 +168,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\save_utt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jet2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
