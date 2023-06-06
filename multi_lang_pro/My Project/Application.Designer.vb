@@ -29,10 +29,12 @@ Namespace My
             Me.SaveMySettingsOnExit = true
             Me.ShutDownStyle = Global.Microsoft.VisualBasic.ApplicationServices.ShutdownMode.AfterMainFormCloses
         End Sub
-        
-        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.multi_lang_pro.res_test
+            Dim c As New System.Globalization.CultureInfo("ar")
+            System.Threading.Thread.CurrentThread.CurrentUICulture = c
+            Me.MainForm = Global.multi_lang_pro.Form1
         End Sub
     End Class
 End Namespace
