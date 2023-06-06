@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>
         Protected Overrides Sub OnCreateMainForm()
-            Dim c As New System.Globalization.CultureInfo("ar")
+            Dim c As New System.Globalization.CultureInfo("es-GT")
             System.Threading.Thread.CurrentThread.CurrentUICulture = c
             Me.MainForm = Global.multi_lang_pro.Form1
         End Sub
